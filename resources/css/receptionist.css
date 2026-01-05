@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.reception-hero {
+    background: url('/images/reception-hero.jpg') center/cover no-repeat;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    color: #fff;
+}
+
+.reception-search {
+    display: flex;
+    width: 70%;
+    margin: -30px auto 60px;
+    background: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.reception-search input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+.reception-search button {
+    background: #3b82f6;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+.reception-section {
+    padding: 60px;
+}
+
+.reception-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.reception-table th,
+.reception-table td {
+    padding: 18px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.btn-primary {
+    background: #3b82f6;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
