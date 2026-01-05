@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.admin-hero {
+    background: url('/images/admin-hero.jpg') center/cover no-repeat;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    color: #fff;
+}
+
+.admin-hero h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.admin-section {
+    padding: 60px;
+}
+
+.room-cards {
+    display: flex;
+    gap: 24px;
+}
+
+.room-card {
+    position: relative;
+    width: 33%;
+}
+
+.room-card img {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.room-card .overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+}
+
+.guest-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+.guest-table th,
+.guest-table td {
+    padding: 18px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.btn-primary {
+    background: #3b82f6;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
