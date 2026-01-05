@@ -1,3 +1,80 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero {
+    background: url('/images/hero.jpg') center/cover no-repeat;
+    height: 90vh;
+    color: #fff;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.hero-content {
+    text-align: left;
+    margin: 120px 60px;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+}
+
+.search-bar {
+    background: #fff;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    position: absolute;
+    bottom: -40px;
+    left: 15%;
+}
+
+.rooms {
+    padding: 120px 60px;
+}
+
+.room-cards {
+    display: flex;
+    gap: 30px;
+}
+
+.room-card {
+    position: relative;
+    width: 33%;
+}
+
+.room-card img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+}
+
+.inspired {
+    text-align: center;
+    padding: 80px;
+}
+
+.testimonial {
+    padding: 80px;
+    border-top: 1px solid #eee;
+}
